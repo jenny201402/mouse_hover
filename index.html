@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mouse</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        img {
+            height:200px;
+            width:320px;
+            position:absolute;
+        }
+        .wrap {
+            overflow: hidden;
+            min-height: 200px;
+            width: 320px;
+            float: left;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .wrap .over {
+            background: rgba(225, 225, 225, .8);
+            height:200px;
+            width:320px;
+            opacity: 0;
+            position:absolute;
+            z-index:9999
+        }
+        .wrap .over button {
+            margin-top: 25%;
+            margin-left: 25%
+        }
+        .wrap:hover .over {
+            opacity: 1
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <img src="img/01.png" class="img-responsive" alt="Responsive image"/>
+        <div class="over"><button type="button" class="btn btn-success">此处图片或者按钮均可</button></div>
+    </div>
+    <div class="wrap">
+        <img src="img/02.png" class="img-responsive" alt="Responsive image"/>
+        <div class="over"><button type="button" class="btn btn-success">此处图片或者按钮均可</button></div>
+    </div>
+    <div class="wrap">
+        <img src="img/03.png" class="img-responsive" alt="Responsive image"/>
+        <div class="over"><button type="button" class="btn btn-success">此处图片或者按钮均可</button></div>
+    </div>
+    <div class="wrap">
+        <img src="img/04.png" class="img-responsive" alt="Responsive image"/>
+        <div class="over"><button type="button" class="btn btn-success">此处图片或者按钮均可</button></div>
+    </div>
+    <div class="wrap">
+        <img src="img/05.png" class="img-responsive" alt="Responsive image"/>
+        <div class="over"><button type="button" class="btn btn-success">此处图片或者按钮均可</button></div>
+    </div>
+</body>
+</html>
